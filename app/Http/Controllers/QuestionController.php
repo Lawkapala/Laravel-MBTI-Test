@@ -25,6 +25,6 @@ class QuestionController extends Controller {
 	*/
 	public function index()
 	{
-			echo 'Test controller';
+		return view('layout');
 	}
 }
