@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title %}Welcome!{% endblock %}</title>
+  {!!  HTML::script('js/jquery-ui.min.js')!!}
 
 @section('stylesheets')
   {!! HTML::style('css/bootstrap.min.css') !!}
@@ -39,8 +40,8 @@
 
     </div>
     @section('javascripts')
-    {{ HTML::script('js/jquery-2.1.1.min.js')}}
-    {{ HTML::script('js/bootstrap.min.js')}}
+    {!! HTML::script('js/jquery-2.1.1.min.js') !!}
+    {!! HTML::script('js/bootstrap.min.js') !!}
     @show
   </body>
   </html>

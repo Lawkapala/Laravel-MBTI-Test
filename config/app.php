@@ -196,7 +196,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
         'DebugBar'  => Barryvdh\Debugbar\Facade::class,
-        'Html'      => Illuminate\Html\HtmlFacade::class,
+        'HTML'      => Illuminate\Html\HtmlFacade::class,
         'Form'      => Illuminate\Html\FormFacade::class,
       ],
 
