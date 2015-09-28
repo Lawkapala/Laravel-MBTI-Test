@@ -14,4 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('question', 'QuestionController@index');
+Route::any('question/{id}', 'QuestionController@index');
+Route::any('calculate/{payload}', 'QuestionController@calculate');
